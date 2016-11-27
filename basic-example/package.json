@@ -1,0 +1,14 @@
+{
+  "name": "basic-example",
+  "private": true,
+  "description": "The basic example of bulbo usage",
+  "scripts": {
+    "test": "bulbo build",
+    "serve": "bulbo serve"
+  },
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "devDependencies": {
+    "bulbo": "^6.3.0",
+    "gulp-marked": "^1.0.0"
+  }
+}
