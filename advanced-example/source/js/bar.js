@@ -1,3 +1,3 @@
 require('./lib/baz')
 
-console.log('This is bar.js')
+const bar = () => console.log('This is bar.js')

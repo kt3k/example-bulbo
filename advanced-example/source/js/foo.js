@@ -1,3 +1,9 @@
 require('./lib/baz')
 
-console.log('This is foo.js')
+class Foo {
+  method() {
+    console.log('This is foo.js')
+  }
+}
+
+window.Foo = Foo
