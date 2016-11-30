@@ -3,6 +3,7 @@
   "private": true,
   "description": "A little bit advanced usage example of bulbo",
   "scripts": {
+    "test": "npm run build",
     "build": "bulbo build",
     "serve": "bulbo serve"
   },
