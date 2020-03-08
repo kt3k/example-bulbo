@@ -788,20 +788,21 @@ builtin-status-codes@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-2.0.0.tgz#6f22003baacf003ccd287afe6872151fddc58579"
 
-bulbo@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/bulbo/-/bulbo-6.3.0.tgz#bf236e10bad45b8ebfd6a68efaf6704a494fbd5a"
+bulbo@^6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/bulbo/-/bulbo-6.13.1.tgz#f6faf536b8edcfaf84f97adab6b9a9255cceb221"
+  integrity sha512-Zvs1stZ3r0GTnVYo7JJ1UHtio1ORErahsYj9kSt4VTjK7a/mRwAv5wuzZHwzqaBQp8x6e5A6tUCYpJCaUoCeQQ==
   dependencies:
     chalk "^1.1.1"
     chokidar "^1.4.2"
     gulp-plumber "^1.1.0"
     interpret "^1.0.0"
     liftoff "^2.2.0"
-    minimisted "^1.1.1"
+    minimisted "^2.0.0"
     minirocket "^2.0.0"
     stream-splicer "^2.0.0"
     vinyl-fs "^2.2.1"
-    vinyl-serve "^2.5.0"
+    vinyl-serve "^2.8.0"
 
 bundle-through@^1.0.3:
   version "1.0.3"
@@ -2372,9 +2373,10 @@ minimist@^1.1.0, minimist@^1.1.3, minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
-minimisted@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/minimisted/-/minimisted-1.1.1.tgz#c48e2f415a53d1f6b24b3a35a0d95601cfbd6811"
+minimisted@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/minimisted/-/minimisted-2.0.0.tgz#5e3295e74ed701b1cbeaa863a888181d6efbe8ce"
+  integrity sha512-oP88Dw3LK/pdrKyMdlbmg3W50969UNr4ctISzJfPl+YPYHTAOrS+dihXnsgRNKSRIzDsrnV3eE2CCVlZbpOKdQ==
   dependencies:
     minimist "^1.2.0"
 
@@ -3326,9 +3328,10 @@ vinyl-fs@^2.2.1:
     vali-date "^1.0.0"
     vinyl "^1.0.0"
 
-vinyl-serve@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/vinyl-serve/-/vinyl-serve-2.5.0.tgz#da7accaaa24644b780afa2006ba9e05eeab4441d"
+vinyl-serve@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/vinyl-serve/-/vinyl-serve-2.8.0.tgz#c92af74dfccb43e1274d3786fcbe20c9354cda49"
+  integrity sha512-B9b3ULyOtl1pitG620lfMQCq500fJIig648bcyt3t5/33dG4aBAZCi2gtrazzF7iYEY2TUlZAhLTPAXPcZsIjg==
   dependencies:
     es6-promise "^4.0.3"
     mime "^1.3.4"
